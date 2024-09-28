@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="smarthome.xsl"?>
+<SmartHome>
+    <Room name="LivingRoom">
+        <Device type="Light" id="1">
+            <Status>On</Status>
+            <Brightness>75%</Brightness>
+        </Device>
+        <Device type="Thermostat" id="2">
+            <Status>On</Status>
+            <Temperature>22</Temperature>
+            <Mode>Cooling</Mode>
+        </Device>
+    </Room>
+    
+    <Room name="Bedroom">
+        <Device type="Light" id="3">
+            <Status>Off</Status>
+            <Brightness>0%</Brightness>
+        </Device>
+        <Device type="Thermostat" id="4">
+            <Status>Off</Status>
+            <Temperature>20</Temperature>
+            <Mode>Heating</Mode>
+        </Device>
+    </Room>
+
+    <Room name="Kitchen">
+        <Device type="Refrigerator" id="5">
+            <Status>On</Status>
+            <Temperature>4</Temperature>
+        </Device>
+        <Device type="Oven" id="6">
+            <Status>Off</Status>
+            <Temperature>0</Temperature>
+        </Device>
+    </Room>
+</SmartHome>

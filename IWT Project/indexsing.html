@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Dashboard - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        #username, #email, #password, #confirm-password {
+            color: white;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid white;
+            padding: 10px; /* add some padding to make the input box bigger */
+            font-size: 18px; /* increase the font size */
+        }
+
+        #username:focus, #email:focus, #password:focus, #confirm-password:focus {
+            outline: none;
+            border-bottom: 1px solid white;
+        }
+
+        label {
+            color: white;
+        }
+
+        #username::placeholder, #email::placeholder, #password::placeholder, #confirm-password::placeholder {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#" align="right" class="text-bold text-white">Smart Home Dashboard</a>
+            </div>
+            <ul>
+                <li><a href="ff.html" class="text-gray">Sign up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="img4">
+        
+        <div class="center">
+            <h1 class="title text-large text-bold text-blue">Sign Up</h1>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    
+                    <input type="password" id="password" required>
+                </div>
+                <button href="index.html" s="btn btn-blue" type="submit">Sign in</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
